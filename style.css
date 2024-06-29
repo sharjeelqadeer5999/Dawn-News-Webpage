@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.8;
+}
+/* header start */
+/* nav-black start */
+.nav-black li{
+    list-style-type: none;
+}
+.nav-black a{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 12px;
+}
+.nav-black{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav-black a:hover{
+    border-bottom: 1px solid white;
+}
+/* nav-black end */
+/* dawn-logo start */
+.dawn-logo{
+    text-align: center;
+}
+.dawn-logo img{
+    width: 251px;
+    padding: 20px 0;
+}
+.dawn-logo p{
+    margin-bottom: 2rem;
+}
+/* dawn-logo end  */
+/* nav-white start */
+.nav-white li{
+    list-style-type: none;
+}
+.nav-white a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0px -10px;
+}
+.nav-white{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+.nav-white a:hover{
+    text-decoration: underline;
+    background-color: grey;
+}
+.search{
+    margin-left: 30px;
+}
+.search :placeholder-shown{
+    border-style: none;
+}
+.search i{
+    font-size: 14px;
+}
+/* nav-white end */
+/* header end */
+/* main start */
+/* heading start  */
+.heading{
+    height: 50px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.heading h1{
+    font-size: 40px;
+}
+/* heading end  */
+/* published start */
+.published li{
+    list-style: none;
+}
+.published i{
+    font-size: xx-large;
+    padding: 0 10px;
+}
+.published ul{
+    display: flex;
+    float: right;
+}
+.published{
+    display: flex;
+    justify-content: space-around;
+}
+/* published end */
+/* section start */
+section{
+    padding: 30px 300px;
+}
+.img p{
+margin-bottom: 15px;
+}
+.para p{
+    font-size: 16px;
+}
+.para strong p{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.para strong a{
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* form start */
+form{
+    margin-top: 10px;
+}
+form input{
+border-style: none;
+border-radius: 3px;
+background-color: #F7F7F7;
+font-size: 14px;
+height: 25px;
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 20px;
+margin-right: 50px;
+}
+form p{
+margin-bottom: 10px;
+}
+.red{
+    color: red;
+}
+form textarea{
+    height: 80px;
+    width: 55rem;
+    padding: 10px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #F7F7F7;
+}
+form button{
+    border-radius: 0;
+    width: 70px;
+    background-color: #F7F7F7;
+    margin-top: 10px;
+}
+/* form end */
+/* section end */
+/* main end */
